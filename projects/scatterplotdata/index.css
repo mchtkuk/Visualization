@@ -1,0 +1,25 @@
+* {
+ 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+svg {
+    background-color: wheat;
+}
+
+.bar:hover {
+    fill: red;
+}
+
+#tooltip {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+}
